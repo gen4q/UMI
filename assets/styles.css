@@ -1,0 +1,14 @@
+body { background: #f1f5f6; color: #243746; }
+h1 { font-size: 2rem; font-weight: 700; letter-spacing: -.04em; }
+h2 { font-size: 1.05rem; font-weight: 700; margin-bottom: 1rem; }
+.eyebrow { color: #17857e; font-size: .7rem; font-weight: 700; letter-spacing: .13em; margin-bottom: .5rem; }
+.card { border: 1px solid #e0e7eb; border-radius: 12px; height: 100%; }
+.card-body { padding: 1.2rem; }
+.stat { display: flex; justify-content: space-between; align-items: center; padding: .35rem 0; }
+.stat strong { font-size: 1.35rem; }
+.status { font-size: .85rem; min-height: 2.4em; margin: .7rem 0; color: #42616d; }
+.filter-label, .table-heading { display: flex; justify-content: space-between; gap: 1rem; }
+.filter-label { font-weight: 600; font-size: .9rem; margin-bottom: .8rem; }
+.range-value { font-size: .8rem; color: #17857e; white-space: nowrap; }
+footer { text-align: center; color: #667d88; font-size: .75rem; padding: 1rem 0 0; }
+@media (max-width: 600px) { h1 { font-size: 1.5rem; } .table-heading { flex-direction: column; gap: 0; } }
